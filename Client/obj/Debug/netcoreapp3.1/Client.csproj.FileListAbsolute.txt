@@ -1,0 +1,16 @@
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.exe
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.deps.json
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.json
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.runtimeconfig.dev.json
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.dll
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Client.pdb
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Consul.dll
+D:\01project\02练习\Client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.csproj.CopyComplete
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.dll
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.pdb
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache
+D:\01project\02练习\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache

@@ -1,0 +1,9 @@
+D:\01project\02练习\SocketClient\bin\Debug\SocketClient.exe
+D:\01project\02练习\SocketClient\bin\Debug\SocketClient.pdb
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.Client.resources
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.cache
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.csproj.CoreCompileInputs.cache
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.exe
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.pdb
+D:\01project\02练习\SocketClient\obj\Debug\SocketClient.csprojAssemblyReference.cache

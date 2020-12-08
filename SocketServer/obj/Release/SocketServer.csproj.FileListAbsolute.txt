@@ -1,0 +1,8 @@
+D:\01project\02练习\SocketServer\bin\Release\SocketServer.exe
+D:\01project\02练习\SocketServer\bin\Release\SocketServer.pdb
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.Properties.Resources.resources
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.csproj.GenerateResource.cache
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.csproj.CoreCompileInputs.cache
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.exe
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.pdb
+D:\01project\02练习\SocketServer\obj\Release\SocketServer.Form1.resources

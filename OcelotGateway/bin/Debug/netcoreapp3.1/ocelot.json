@@ -1,0 +1,39 @@
+{
+  //15版本及之前为ReRoutes
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Users/GetUser?id={id}",
+      "DownstreamScheme": "http",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5210
+      //  },
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5211
+      //  },
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5212
+      //  }
+      //],
+      "UpstreamPathTemplate": "/Users/Get?id={id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "ServiceName": "BaseDataServer",
+      "UseServiceDiscovery": true,
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    //"BaseUrl": "http:127.0.0.1:8888/" //该地址是当前网关程序的运行地址
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "PollConsul",
+      "PollingInterval": 100
+    }
+  }
+}

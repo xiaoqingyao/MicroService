@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ST/F7aDPfrZ5wqnAcdmo+QeFq/cw51V6Rik+vww3Fp8famPfYWXHtwPlvdVWVEISJppWXCiss96z4ioysCbvXQ==",
+  "success": true,
+  "projectFilePath": "D:\\01project\\02练习\\PollyConsole\\PollyConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\吕春城\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

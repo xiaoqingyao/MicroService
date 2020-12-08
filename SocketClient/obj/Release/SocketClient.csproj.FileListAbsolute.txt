@@ -1,0 +1,8 @@
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.Client.resources
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.Properties.Resources.resources
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.csproj.GenerateResource.cache
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.csproj.CoreCompileInputs.cache
+D:\01project\02练习\SocketClient\bin\Release\SocketClient.exe
+D:\01project\02练习\SocketClient\bin\Release\SocketClient.pdb
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.exe
+D:\01project\02练习\SocketClient\obj\Release\SocketClient.pdb

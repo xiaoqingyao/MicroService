@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicroService</name>
+    </assembly>
+    <members>
+        <member name="M:MicroService.Controllers.UsersController.Add(MicroService.Models.DTO.UserDTO)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="userDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MicroService.Controllers.UsersController.List(MicroService.Models.UserQueryPatameters)">
+            <summary>
+            获取用户列表
+            </summary>
+            <param name="userQueryPatameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MicroService.Controllers.UsersController.GetList">
+            <summary>
+            获取用户列表-Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MicroService.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            获取用户列表-Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:MicroService.Models.Db.DepartmentEntity.EId">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="T:MicroService.Models.Db.UserEntity">
+            <summary>
+            用户数据库实体
+            </summary>
+        </member>
+        <member name="P:MicroService.Models.Db.UserEntity.EId">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="M:MicroService.SQLDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{MicroService.SQLDbContext})">
+            <summary>
+            注意要实现该构造
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+    </members>
+</doc>
