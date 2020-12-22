@@ -9,6 +9,9 @@ using LinqToDB.Configuration;
 using LinqToDB.Data;
 using MicroService.AutoMapper;
 using MicroService.Consul;
+using MicroService.Filters;
+using MicroService.MiddleWares;
+using MicroService.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +37,7 @@ namespace MicroService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<AppConfigOption>(Configuration.GetSection("AppConfig"));
             services.AddAutoMapper(typeof(AutoMapperConfig).Assembly);
             services.AddControllers();
             //注册数据库上下文
@@ -53,11 +57,23 @@ namespace MicroService
                     c.IncludeXmlComments(name);
                 }
             });
+
+            bool IsOpenPerformanceMonitor = this.Configuration.GetSection(AppConfigOption.DomainConfigNode).GetValue<bool>("OpenPerformanceMonitor");
+            if (IsOpenPerformanceMonitor)
+            {
+                services.AddMvc(option =>
+                {
+                    option.Filters.Add(typeof(PerformanceFilter));
+                });
+            }
+
+
             //linq2db
-            DataConnection.DefaultSettings = new Linq2Sqls.MySettings();
+            //DataConnection.DefaultSettings = new Linq2Sqls.MySettings();
             //var builder = new LinqToDbConnectionOptionsBuilder();
             //builder.UseSqlServer(Configuration.GetConnectionString("Main_ReadAndWrite"));
             //var dc = new DataConnection(builder.Build());
+
 
         }
 
@@ -80,6 +96,8 @@ namespace MicroService
             {
                 p.SwaggerEndpoint("/swagger/v1/swagger.json", "CoreWebApi V1");
             });
+
+            app.UseGateway();
 
             //调用注册类
             //new ConsulRegister(Configuration, lifetime).Regist();
